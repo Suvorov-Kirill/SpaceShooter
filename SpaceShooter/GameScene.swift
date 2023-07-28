@@ -161,7 +161,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         bullet.run(SKAction.sequence(actions))
     }
-    
+    // code
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
     }
