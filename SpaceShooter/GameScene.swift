@@ -17,6 +17,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var score:Int = 0 {
         didSet{
             scoreLabel.text = "Score: \(score)"
+            scoreLabel.fontSize = 18
         }
     }
     
@@ -161,7 +162,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         bullet.run(SKAction.sequence(actions))
     }
-    // code
+    
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
     }
